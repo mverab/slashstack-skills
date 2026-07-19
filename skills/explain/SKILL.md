@@ -28,7 +28,7 @@ or implementation plan is too technical for the user to act on confidently.
    or needs a specific action.
 6. Give the next safe action: provide one concrete prompt or command the user
    can run next.
-7. Aprendiz Mode: for the MOST confusing concept in the output, include three
+7. Modo Aprendiz: for the MOST confusing concept in the output, include three
    sub-fields in beginner-friendly Spanish:
    - Qué significa: what the concept means in plain language.
    - Por qué importa: why it matters for the project.
@@ -40,5 +40,5 @@ A beginner explanation containing:
 - Plain version: the short explanation in non-technical language
 - Exact details: file paths, commands, or error lines that must not be changed
 - Why it matters: the practical impact
-- Aprendiz Mode: the most confusing concept with Qué significa, Por qué importa, and Qué hacer ahora
+- Modo Aprendiz: the most confusing concept with Qué significa, Por qué importa, and Qué hacer ahora
 - Next safe step: one prompt or command to run next

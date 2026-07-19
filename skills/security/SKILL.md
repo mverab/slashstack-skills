@@ -28,7 +28,7 @@ API, or asking an agent to make production-facing changes.
    fix before real users; Low means track or clean up soon.
 6. Suggest safe fixes: provide concrete next prompts or commands without
    applying changes automatically.
-7. Aprendiz Mode: for EACH security risk, include three sub-fields in
+7. Modo Aprendiz: for EACH security risk, include three sub-fields in
    beginner-friendly Spanish:
    - Qué significa: what the risk means in plain language.
    - Por qué importa: why it matters for the project.
@@ -40,5 +40,5 @@ A security review containing:
 - High risks: secrets, auth, or public routes that block deploy
 - Medium risks: likely unsafe defaults or missing checks
 - Low risks: cleanup items
-- Aprendiz Mode: each risk includes Qué significa, Por qué importa, and Qué hacer ahora
+- Modo Aprendiz: each risk includes Qué significa, Por qué importa, and Qué hacer ahora
 - Safe next prompt: one scoped prompt to fix the highest-risk item first

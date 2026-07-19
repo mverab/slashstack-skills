@@ -24,7 +24,7 @@ any moment where the user needs direction before continuing.
    for pasting into the agent.
 4. Label each option: use Beginner, Safer, or Faster so the user understands the
    tradeoff.
-5. Aprendiz Mode: for EACH recommended prompt, explain WHY with three
+5. Modo Aprendiz: for EACH recommended prompt, explain WHY with three
    sub-fields in beginner-friendly Spanish:
    - Qué significa: what the recommendation means in plain language.
    - Por qué importa: why it matters for the project.
@@ -37,6 +37,6 @@ any moment where the user needs direction before continuing.
 A next-step menu containing:
 - Current state: one-sentence summary
 - Options: 2-3 safe next prompts with labels
-- Aprendiz Mode: each option includes Qué significa, Por qué importa, and Qué hacer ahora
+- Modo Aprendiz: each option includes Qué significa, Por qué importa, and Qué hacer ahora
 - Recommendation: the best default option and why
 - Caution: any action the user should avoid for now

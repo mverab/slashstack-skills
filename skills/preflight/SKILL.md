@@ -24,7 +24,7 @@ Use before editing code to inspect project state and constraints.
    - High: wrong branch, uncommitted changes that will conflict, failing tests on main.
    - Medium: missing tests for the target area, unknown build/lint commands.
    - Low: stale references in `.agents/references/`, unused dependencies, thin project memory.
-7. Aprendiz Mode: for EACH risk item, include three sub-fields in beginner-friendly Spanish:
+7. Modo Aprendiz: for EACH risk item, include three sub-fields in beginner-friendly Spanish:
    - Qué significa: what the risk means in plain language.
    - Por qué importa: why it matters for the project.
    - Qué hacer ahora: one concrete action to take now.
