@@ -1,0 +1,24 @@
+name: New skill proposal
+description: Propose a new skill for the free layer
+title: "[proposal] Skill name"
+labels: [enhancement]
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: What recurring task does it automate?
+      description: Describe a real situation from your own work where this skill would have helped.
+    validations:
+      required: true
+  - type: textarea
+    id: gap
+    attributes:
+      label: Why don't the existing eleven skills cover it?
+    validations:
+      required: true
+  - type: textarea
+    id: free-layer
+    attributes:
+      label: Why does it belong in the free (MIT) layer rather than Pro?
+    validations:
+      required: true

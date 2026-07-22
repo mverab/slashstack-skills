@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: SlashStack website
+    url: https://slashstack.dev
+    about: Documentation, pricing, and the Pro tier.
+  - name: SlashStack Pro
+    url: https://slashstack.dev/#pricing
+    about: 8 more skills + 6 always-on guards. One-time purchase.

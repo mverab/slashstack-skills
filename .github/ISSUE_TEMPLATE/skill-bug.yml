@@ -1,0 +1,45 @@
+name: Skill bug / failure report
+description: A skill produced bad or unexpected agent behavior
+title: "[skill-name] Short description of the failure"
+labels: [bug]
+body:
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Which skill?
+      options:
+        - preflight
+        - vibe
+        - audit
+        - ship
+        - execute
+        - security
+        - remember
+        - recall
+        - improve
+        - explain
+        - next
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: Which agent / tool?
+      placeholder: e.g. Claude Code 2.x, Codex CLI, Cursor, Hermes Agent
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: What did you ask, and what did the agent do? A short transcript excerpt is the most useful thing you can paste here.
+      placeholder: |
+        I invoked /audit before committing and the agent...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
