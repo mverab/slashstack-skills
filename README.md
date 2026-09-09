@@ -7,7 +7,7 @@
 
 # ⚡ SlashStack Free Skills
 
-### Eleven open-source workflows that make AI coding agents **inspect before editing, verify before stopping, and remember what matters**
+### Twelve open-source workflows that make AI coding agents **inspect before editing, verify before stopping, and remember what matters**
 
 <p>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-34d399.svg" alt="MIT License" /></a>
@@ -39,7 +39,7 @@
 
 **SlashStack Free Skills** is a set of **agent skills for AI coding assistants** — plain Markdown workflows that tools like **Claude Code**, **Codex**, **Cursor**, **Hermes**, and other repo-aware agents read and follow. They give your agent **guardrails**: it inspects the repo before touching code, verifies with real evidence before claiming done, and preserves durable project context across sessions.
 
-These eleven skills are the **MIT-licensed free layer** of [SlashStack](https://slashstack.dev) — a repo-local agent operating layer. No runtime, no accounts, no lock-in. Just readable, editable, versionable Markdown.
+These twelve skills are the **MIT-licensed free layer** of [SlashStack](https://slashstack.dev) — a repo-local agent operating layer. No runtime, no accounts, no lock-in. Just readable, editable, versionable Markdown.
 
 - ✅ **Zero dependencies** — plain Markdown, works with any skill-aware agent
 - ✅ **Local-first** — lives in your repo, versioned with your code
@@ -82,7 +82,7 @@ In your agent session, invoke any skill by name:
 
 ---
 
-## 🧰 The Eleven Free Skills
+## 🧰 The Twelve Free Skills
 
 | Skill | What it does | When to use it |
 |-------|--------------|----------------|
@@ -97,18 +97,19 @@ In your agent session, invoke any skill by name:
 | **`/improve`** | Captures reusable workflow patterns from completed work | When you discover a better way |
 | **`/explain`** | Translates technical agent output into plain language | When onboarding non-experts |
 | **`/next`** | Suggests 2–3 safe next prompts without editing anything | When you don't know what to ask |
+| **`/factory`** | Turns an intention into a bounded order with a machine-checked receipt | When a change must be delivered as a verifiable unit |
 
 ---
 
 ## 🆚 Free vs Pro
 
-This repository intentionally contains **only** the eleven free skills.
+This repository intentionally contains **only** the twelve free skills.
 
 [**SlashStack Pro**](https://slashstack.dev/#pricing) — one-time purchase, lifetime updates — adds:
 
 | | Free (this repo) | **Pro** |
 |---|:---:|:---:|
-| Workflow skills | 11 | **19** |
+| Workflow skills | 12 | **20** |
 | Always-on guards (commit/push/install/env) | — | **6** |
 | Senior Mode (smallest-surface planning) | — | ✅ |
 | Git `pre-commit` + `pre-push` secret scanning | — | ✅ |
