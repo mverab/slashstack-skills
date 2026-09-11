@@ -34,10 +34,16 @@ delivers one bounded, verified change at a time.
 5. Verify: `npx slashstack factory verify <order-id>`. It runs the frozen
    verifier and writes a receipt under `.agents/factory/receipts/` with the
    exact commit, duration, exit code, and redacted output.
-6. Read the receipt honestly: `failed` means repair; `blocked` means the
+6. Or let the configured agent implement it: set `agent.command` in
+   `.agents/factory/config.json` (any agent CLI; it receives the order via
+   FACTORY_ORDER_* env vars), then `npx slashstack factory run <order-id>`.
+   The agent works in an isolated worktree under `.agents/factory/runs/` and
+   the result is verified automatically. Your main checkout is never touched.
+7. Read the receipt honestly: `failed` means repair; `blocked` means the
    contract itself changed (verifier, worktree mid-check, missing test command)
-   and needs a human decision, not a retry loop.
-7. Ship through the normal `ship` workflow. Merge and deploy stay human
+   or the run could not start (no agent command, another run active) —
+   that needs a human decision, not a retry loop.
+8. Ship through the normal `ship` workflow. Merge and deploy stay human
    decisions.
 
 ## Output
